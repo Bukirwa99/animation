@@ -1,0 +1,5 @@
+var custom="0/n"+
+
+
+var ANIMATION=[];
+ANIMATIONS["juggler"]=ANIMATIONS["juggler"]=ANIMATIONS['JUGGLER']=JUGGLER;

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASCIImation</title>
+    <script  src="ascii.js"></script>
+    <link rel="stylesheet" href="ascii.css">
+    <script  src="animations.js"></script>
+    <script src="myanimation.js"></script>
+</head>
+<body>
+    <h1>ASCII Animation Viewer</h1>
+    <center>
+        <textarea=""Cols="80" rows="20" id="textArea"></textarea>
+    </center>
+    <div class="controls">
+    <label><input type="text"id="mytext"/></label>
+    <fieldset>
+        <legend>PlayControls:</legend>
+        
+        <button>Start</button>
+        
+        <button >Stop</button>
+    </fieldset>
+    <fieldset>
+        <legend>Animation:</legend>
+        <select name="select" id="selection">
+            <option value="JUGGLER">JUGGLER</option>
+            
+            <option value="BIKE">BIKE</option>
+            <option value="DIVE">DIVE</option>
+            <option value="CUSTOM">CUSTOM</option>
+            <option VALUE="EXERCISE">EXERCISE</option>
+
+            
+        </select>
+
+    </fieldset>
+    <fieldset>
+        <legend>size:</legend>
+        <select name="select" id ="selection">
+            <option value="20px">Medium</option>
+        <option value="15px">Small</option>
+        <option value ="10px">Large</option>
+        <option value="5px">Tinny</option>
+        </select>
+    </fieldset>
+    
+    <fieldset>
+        <legend>speed:</legend>
+        <input type ="radio" id="Turbo" name="size">
+        <label for="Turbo">Turbo</label>
+        <input type="radio" id="Normal" name="size">
+        <label for="Normal" >Normal</label>
+        <input type="radio"id="S1o-Mo" name="size">
+        <label for="S1o-Mo">s1o-Mo</label>
+
+    </fieldset>
+</div>
+</body>
+</html>

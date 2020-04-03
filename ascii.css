@@ -1,0 +1,33 @@
+body{
+    background-color:#CCCCFF;
+    text-align: center;
+    
+    
+}
+input[type="text"]{
+    width: 90%;
+    Height:400px;
+    font-style: initial;
+    font-size: 12pt;
+    font-family: monospace;
+    background-color: white;
+}
+fieldset{
+    border-width: 5px; 
+    border-color: black;
+    vertical-align: 10px;
+    display: inline;
+    
+    vertical-align: top;
+    border-radius: 10px;
+
+}
+
+
+    
+   
+   
+
+
+
+
