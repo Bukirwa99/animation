@@ -1,6 +1,7 @@
 var textArea =document.getElementById("textArea");
 textArea.style.fontsize="15px";
 textArea.Value =JUGGLER;
+//my controls
 var startButton=document.getElementById("Start");
 var stopButton=document.getElementById("Stop");
 stopButton.disabled=true;
@@ -53,4 +54,13 @@ function animateNow(){
     }
     initialIndex=0;
     showNextFrame();
+}
+function showNextFrame(){
+    textArea.value=frames[initialIndex];
+    initialIndex=(initialIndex+1)%frames.length;
+    timer=setTimeout("showNext frame()",speed);
+
+}
+function stopAnimating(){
+    clearTimeout(timer);
 }
