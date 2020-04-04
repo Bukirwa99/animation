@@ -12,14 +12,16 @@
 <body>
     <h1>ASCII Animation Viewer</h1>
     <center>
-        <textarea=""Cols="80" rows="20" id="textArea"></textarea>
+        <textarea=""Cols="80" rows="20" id="textArea">
+
+        </textarea>
     </center>
     <div class="controls">
     <label><input type="text"id="mytext"/></label>
     <fieldset>
         <legend>PlayControls:</legend>
         
-        <button>Start</button>
+        <button onclick="myFunction()" >Start</button>
         
         <button >Stop</button>
     </fieldset>
@@ -58,5 +60,12 @@
 
     </fieldset>
 </div>
+
+
+<script>
+    function myFunction() {
+      document.getElementById("textArea").innerHTML = "Hello World, Hi Angie, so this is jsut simple js to help you learn to connect html to js. so go to line 24 and see how i added that eventlister called onClick and assignd it to a Js function that is on line 67 of the HTML code. so you are supposed to have an event listener for every button and reference them to js functions supposed to animate things for you in the an";
+    }
+    </script>
 </body>
 </html>
